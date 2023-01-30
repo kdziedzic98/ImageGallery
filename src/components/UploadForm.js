@@ -23,14 +23,17 @@ const UploadForm = () => {
 
   return (
     <form>
-      <label>
-        <input type="file" onChange={UploadProcess} />
-        <UploadFileIcon
-          fontSize="large"
-          cursor="pointer"
-          className="uploadIcon"
-        />
-      </label>
+      <div className="uploadwrap">
+        <label>
+          <input type="file" onChange={UploadProcess} />
+          <UploadFileIcon
+            fontSize="large"
+            cursor="pointer"
+            htmlColor="#000"
+            className="uploadIcon"
+          />
+        </label>
+      </div>
       <div className="output">
         {error && (
           <Alert severity="error">

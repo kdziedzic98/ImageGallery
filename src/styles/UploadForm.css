@@ -10,3 +10,18 @@ input {
 .output {
   padding-top: 20px;
 }
+
+.uploadwrap {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.uploadwrap:hover {
+ background-color: rgb(192, 185, 185);
+ border: 1px solid #000;
+ padding: 20px 10px;
+ border-radius: 50%;
+ transition: all .4s;
+}
