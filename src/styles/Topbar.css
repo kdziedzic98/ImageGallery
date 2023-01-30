@@ -1,0 +1,68 @@
+.topbar-container {
+  background-color: #ededed;
+}
+
+.topbar-menu {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+  padding: 20px;
+}
+
+.topbar-menu h1 {
+  justify-content: center;
+  font-size: 24px;
+  flex: 0 1 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.topbar-menu h1:before {
+  content : "";
+  position: absolute;
+  left    : -5px;
+  bottom  : -2px;
+  height  : 30%;
+  width   : 20%;
+  border-bottom: 2px solid #000;
+  border-left: 2px solid #000;
+}
+
+.topbar-menu h1:after {
+  content : "";
+  position: absolute;
+  top    : -2px;
+  right  : -5px;
+  height  : 30%;
+  width   : 20%;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.icons {
+  display: flex;
+  flex: 0 1 auto;
+  margin-left: auto;
+  gap: 20px;
+  align-items: center;
+}
+
+.topbar-container h2 {
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: 3px;
+  margin-top: 40px;
+}
+
+.topbar-container p {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500
+}
+
