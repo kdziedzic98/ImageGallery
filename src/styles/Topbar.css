@@ -68,10 +68,6 @@
     position: relative;
     width: 100%;
   }
-
-  .topbar-menu {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 600px) {
