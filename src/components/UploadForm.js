@@ -29,7 +29,7 @@ const UploadForm = () => {
           <UploadFileIcon
             fontSize="large"
             cursor="pointer"
-            htmlColor="#000"
+            htmlColor="#e0dfdb"
             className="uploadIcon"
           />
         </label>

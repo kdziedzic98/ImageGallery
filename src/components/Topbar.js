@@ -11,8 +11,8 @@ const Topbar = () => {
       <div className="topbar-menu">
         <h1>Gallery</h1>
         <div className="icons">
-          <EmailIcon cursor="pointer" />
-          <NotificationsIcon cursor="pointer" />
+          <EmailIcon cursor="pointer" htmlColor="#e0dfdb" />
+          <NotificationsIcon cursor="pointer" htmlColor="#e0dfdb" />
           <Avatar alt="ExampleUser" src={ExampleUser} />
         </div>
       </div>
